@@ -1,0 +1,11 @@
+{
+  "name": "bmunddotcom",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "repository": "https://github.com:bmmund/bmmund.github.io.git",
+  "author": "Braden Mund",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
