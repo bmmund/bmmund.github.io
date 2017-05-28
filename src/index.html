@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon"  type="image/png" href="assets/BradenGPFace.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Braden Mund's portfolio website">
+    <meta name="author" content="Braden Mund">
+
+    <title>Braden Mund</title>
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <script src="components/fallbackjs/fallback.min.js"></script>
+    <script>
+        // Here we actually invoke Fallback JS to retrieve the following libraries for the page.
+        fallback.load({
+            /* CSS */
+            // Include your stylesheets, this can be an array of stylesheets or a string!
+            font_awesome_css: [
+                '//use.fontawesome.com/5291f10625.css',
+                'components/font-awesome/css/font-awesome.min.css'
+            ],
+
+            bootstrap_css: [
+                'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
+                'components/bootstrap/dist/css/bootstrap.min.css'
+            ],
+
+        }, {/* Options */});
+
+        fallback.ready(function() {
+            // All of my libraries have finished loading!
+
+        });
+    </script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target
+are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse top-nav-expand navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span><img src="assets/BradenGPFace.png" alt="Mug Shot" width="16" height="20"></span>
+                    Braden Mund
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <header style="background-image: url('assets/abstract_mid.png');">
+        <div class="intro-content">
+            <img src="assets/braden.jpg" class="img-responsive img-centered img-circle" alt="Mug Shot">
+            <div class="brand-name">Braden Mund</div>
+            <hr class="colored">
+            <div class="brand-name-subtext">Software Engineering Graduate</div>
+            <div class="brand-highlights">
+                Computer Graphics &#x2022;
+                Embedded Systems &#x2022;
+                Build Systems &#x2022; Video Games
+                &#x2022; Music &#x2022; Art</div>
+        </div>
+        <div class="scroll-down">
+            <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h1>About Me</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <p>
+                        I am a Software Engineering Graduate and I like to make cool things!
+                        From computer graphics and video games to electronic gadgets, I like to tap into my
+                        creative reserves and see what I can make.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Education</h2>
+                    <img src="assets/academic_cap_opt.svg" alt="Academic Cap" width="60">
+                    <p>
+                        <strong>BSc in Software Engineering</strong>
+                        <br>
+                        Graduated April 2016 with distinction
+                        <br>
+                        Schulich School of Engineering
+                        <br>
+                        University of Calgary, AB, Canada
+                        <br>
+                        Awarded 1st place in group design project
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>Skills</h2>
+                    <img src="assets/skills_opt.svg" alt="Academic Cap" width="60">
+                    <dl>
+                        <dt>Programming Languages:</dt>
+                        <dd>C, C++, Python.</dd>
+                        <dd>Familiar with Java, MATLAB, JavaScript, PHP.</dd>
+
+                        <dt>Technologies:</dt>
+                        <dd>Git, Jira, WAF, cmake, make, OpenGL, GLSL, gtest.</dd>
+                        <dd>Exposure to Unreal Engine 4, Unity 4.</dd>
+
+                        <dt>Project Types:</dt>
+                        <dd>Embedded Systems, Computer Graphics, Tools and Infrastructure.</dd>
+                    </dl>
+                </div>
+                <div class="col-md-4">
+                    <h2>Work Experience</h2>
+                    <img src="assets/work_exp_opt.svg" alt="Academic Cap" width="60">
+                    <dl>
+                        <dt>Graphics Jungle - University of Calgary</dt>
+                        <dd><em><small>Undergraduate Researcher</small></em></dd>
+                        <dd><small>Project: Deformable Multiresolution Surface Model for 4D Flow CMR</small></dd>
+                        <dd>Subdivision Surfaces, Multi-Resolution Analysis, Surface Deformations</dd>
+
+                        <dt>Garmin Cochrane </dt>
+                        <dd><em><small>Software Engineering Intern - Personal Monitoring</small></em></dd>
+                        <dd><small>Project: Garmin Varia Smart Bike Lights</small></dd>
+                        <dd>Firmware Development, Build Tools, Manufacturing Support</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="row">
+                <h2>Résumé</h2>
+                <p>
+                    For more, checkout my resume:
+                    <br>
+                    <a href="assets/Braden_Mund_resume_2016.pdf" download>
+                        <img src="assets/resume_opt.svg" alt="Academic Cap" width="60">
+                        <br>
+                        PDF
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="projects" class="project-section">
+        <h1>Projects</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h1>Contact</h1>
+        <div class="container">
+            <div class="row col-md-4 col-md-offset-4">
+                <img  src="assets/chihuly.jpg" style="max-width: 300px; width: 100%;" class="img-thumbnail" alt="Me at Chihuly">
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 contact-info">
+                    <strong>Braden Mund</strong>
+                    <dl>
+                        <dt>Location:</dt>
+                        <dd>Calgary, Alberta</dd>
+
+                        <dt>Email:</dt>
+                        <dd><a href="mailto:braden@mund.ca">braden@mund.ca</a></dd>
+
+                        <dt>LinkedIn:</dt>
+                        <dd><a href="https://ca.linkedin.com/in/bradenmund">https://ca.linkedin.com/in/bradenmund</a></dd>
+
+                        <dt>GitHub:</dt>
+                        <dd><a href="https://github.com/bmmund">https://github.com/bmmund</a></dd>
+                    </dl>
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-outline-dark">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--</dev>-->
+        </div>
+    </section>
+    <!-- Dependancies -->
+
+    <script>
+        fallback.load({
+            jQuery: [
+                '//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js',
+                'components/jquery/dist/jquery.min.js'
+            ],
+
+            'jQuery.ui': [
+                '//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js',
+                'components/jquery-ui/jquery-ui.min.js'
+            ],
+
+            'jQuery.easing': [
+                '//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
+                'components/jquery.easing/js/jquery.easing.min.js'
+            ],
+
+            'jQuery.fn.modal': [
+                'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
+                'components/bootstrap/dist/js/bootstrap.min.js'
+            ],
+
+            'jQuery.fn.jqBootstrapValidation': [
+                '//cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js',
+                'components/jqBootstrapValidation/dist/jqBootstrapValidation.min.js'
+            ],
+
+            scrollnav: 'js/scrolling-nav.js',
+
+            contactme: 'js/contact_me.js'
+
+        }, {/* Options */
+            shim: {
+                'jQuery.ui': ['jQuery'],
+                'jQuery.easing': ['jQuery.ui','jQuery'],
+                'jQuery.fn.modal': ['jQuery'],
+                scrollnav: ['jQuery','jQuery.easing'],
+                'jQuery.fn.jqBootstrapValidation': ['jQuery.fn.modal'],
+                contactme: ['jQuery.fn.jqBootstrapValidation' ]
+            }
+        });
+        fallback.ready(function() {
+            // All of my libraries have finished loading
+            $("body").fadeIn('slow', function(){});
+        });
+    </script>
+
+</body>
+
+</html>
