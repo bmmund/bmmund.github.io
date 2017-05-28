@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="60" width="60">
+  <defs>
+    <linearGradient id="f">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f8f8f8"/>
+    </linearGradient>
+    <radialGradient id="e" cx="20.9" cy="64.6" r="5.3" fx="20.9" fy="64.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0F0F0"/>
+      <stop offset="1" stop-color="#9a9a9a"/>
+    </radialGradient>
+    <radialGradient id="d" cx="20.9" cy="114.6" r="5.3" fx="20.9" fy="114.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0F0F0"/>
+      <stop offset="1" stop-color="#9a9a9a"/>
+    </radialGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#a3a3a3"/>
+      <stop offset="1" stop-color="#4c4c4c"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="1" stop-color="#bbb"/>
+    </linearGradient>
+    <radialGradient xlink:href="#a" id="h" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.38587 0 0 1.47817 -1.568 -9.47)" cx="8.8" cy="3.8" fx="8.8" fy="3.8" r="37.8"/>
+    <radialGradient xlink:href="#b" id="g" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.37473 0 0 1.49015 -6.368 -10.397)" cx="34" cy="35.7" fx="34" fy="35.7" r="86.7"/>
+    <radialGradient xlink:href="#c" id="i" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.38587 0 0 1.47817 -1.568 -9.47)" cx="8.1" cy="7.3" fx="8.1" fy="7.3" r="38.2"/>
+    <radialGradient r="5.3" fy="114.6" fx="20.9" cy="114.6" cx="20.9" gradientTransform="matrix(.2297 0 0 .2297 4.614 3.98)" gradientUnits="userSpaceOnUse" id="j" xlink:href="#d"/>
+    <radialGradient r="5.3" fy="64.6" fx="20.9" cy="64.6" cx="20.9" gradientTransform="matrix(.2297 0 0 .2297 4.614 3.98)" gradientUnits="userSpaceOnUse" id="k" xlink:href="#e"/>
+  </defs>
+  <g transform="translate(1.632 5.893)">
+    <rect width="49.9" height="58.6" x="3.1" y="-5.2" ry="1.6" color="#000" display="block" overflow="visible" fill="url(#g)" stroke="url(#h)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect width="46.9" height="55.7" x="4.6" y="-3.8" ry=".2" rx=".2" color="#000" display="block" overflow="visible" fill="none" stroke="url(#i)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#fff" stroke="none">
+      <path d="M9.4 32.8c0 .6-.6 1.2-1.2 1.2-.7 0-1.2-.6-1.2-1.2 0-.7.5-1.2 1.2-1.2.6 0 1.2.5 1.2 1.2zM9.4 16.4c0 .6-.6 1-1.2 1-.7 0-1.2-.4-1.2-1 0-.7.5-1.2 1.2-1.2.6 0 1.2.5 1.2 1.2z" stroke-width=".32877"/>
+    </g>
+    <path d="M10 30c0 .4-.4.8-.8.8-.5 0-.8-.4-.8-.8 0-.5.3-1 .8-1 .4 0 .8.5.8 1z" fill="url(#j)" transform="translate(-5.443 -10.45) scale(1.43128)"/>
+    <path d="M10 18.5c0 .4-.4.8-.8.8-.5 0-.8-.4-.8-.8 0-.5.3-1 .8-1 .4 0 .8.5.8 1z" fill="url(#k)" transform="translate(-5.443 -10.45) scale(1.43128)"/>
+    <path d="M10-2.5v54.2" fill="none"/>
+    <path d="M11.5-3.2v54.4" fill="none" stroke="#fff" stroke-width="1.4" stroke-opacity=".2"/>
+  </g>
+  <g transform="matrix(1.30116 0 0 1.43128 -1.353 -4.503)">
+    <rect width="22" height="1" x="15" y="17" rx=".2" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="22" height="1" x="15" y="19" rx=".2" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="22" height="1" x="15" y="21" rx=".2" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="22" height="1" x="15" y="23" rx=".2" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="9.9" height="1" x="15" y="25" rx=".1" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="22" height="1" x="15" y="29" rx=".2" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="22" height="1" x="15" y="31" rx=".2" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="22" height="1" x="15" y="33" rx=".2" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="22" height="1" x="15" y="35" rx=".2" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <rect width="15.4" height="1" x="15" y="37" rx=".1" ry=".1" color="#000" display="block" overflow="visible" fill="#9b9b9b" fill-opacity=".5"/>
+    <text style="line-height:125%" x="14.2" y="12.2" transform="scale(.95103 1.0515)" font-size="8.2" font-family="sans-serif" letter-spacing="0" word-spacing="0" fill="#bdbdbd">
+      <tspan x="14.2" y="12.2" fill="#a1a1a1">Braden</tspan>
+    </text>
+  </g>
+</svg>
